@@ -1,15 +1,134 @@
-# 💫 About Me:
-🔭 I’m currently working on<br><br>AI-driven projects, coding challenges, and improving my problem-solving skills in DSA.<br><br>🤝 I’m looking to collaborate on<br><br>Open-source projects, web development, and AI/ML research ideas.<br><br>👐 I’m looking for help with<br><br>Deepening my understanding of advanced data science and full-stack development.<br><br>🌱 I’m currently learning<br><br>Data Structures & Algorithms, Data Science, and Web Development.<br><br>💬 Ask me about<br><br>Coding, problem-solving, C++, Python, hackathons, and tech learning paths.<br><br>⚡ Fun fact<br><br>I love exploring new tech every day and solving LeetCode problems for fun.
+<p align="center">
+  <img src="assets/gaurika-hero.svg" alt="Gaurika Bhatt - Data Science and AI/ML" width="100%">
+</p>
 
+## About Me
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Gaurikabhatt27&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Gaurikabhatt27&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Gaurikabhatt27&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+- Final-year B.Tech Computer Science and Engineering student at Lovely Professional University.
+- CGPA: 8.86
+- Interested in Data Science, Machine Learning, AI, and Data Analytics.
+- Experienced in building predictive models, interactive dashboards, and data-driven applications.
+- Currently strengthening my problem-solving, SQL, and machine learning skills.
+- Exploring scalable data processing and intelligent application development.
+
+I enjoy transforming complex data into meaningful insights and building practical solutions to real-world problems.
+
+## Technical Skills
+
+**Programming:** Python, C++, SQL
+
+**Data Science & Analytics:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Excel, Power BI
+
+**Machine Learning:** Regression, Classification, Feature Engineering, Model Evaluation
+
+**Big Data:** PySpark, Apache Spark, Hadoop, HDFS, Hive, HBase, Cassandra
+
+**Databases:** MySQL, MongoDB
+
+**Development & Tools:** Git, GitHub, VS Code, Jupyter Notebook, Streamlit, React, Node.js
+
+## Featured Projects
+
+A selection of projects across Data Science, Machine Learning, Big Data, Business Intelligence, and AI-powered applications.
+
+### 1. LYRA - AI-Powered Voice Assistant
+A Python-based desktop voice assistant that enables voice-controlled interactions, web automation, information retrieval, and productivity tasks.
+
+**Technologies:** Python, Groq, Cohere, Hugging Face, Selenium, PyQt5, Edge TTS
+
+### 2. EchoChamber - AI-Moderated Real-Time Debate Platform
+A real-time debate platform featuring AI-powered moderation, live communication, and interactive debate experiences.
+
+**Technologies:** React, Node.js, Express.js, MongoDB, Socket.io, Gemini API, Redis
+
+### 3. Public Transport Ridership Prediction
+A large-scale predictive analytics project using NYC public transport data, weather information, and calendar features to forecast hourly bus ridership.
+
+**Technologies:** Python, PySpark, Spark MLlib, Pandas, Power BI
+
+### 4. India Socio-Demographic Insights
+An interactive business intelligence project exploring Census 2011 data to identify demographic patterns and socio-economic insights across India.
+
+**Technologies:** Power BI, Data Analytics, Data Visualization, Excel
+
+### 5. Smart Course Recommendation System
+A personalized course recommendation and learning analytics application that uses student skills, interests, and course ratings to generate recommendations.
+
+**Technologies:** Python, MongoDB, PyMongo, Streamlit, Pandas, Plotly
+
+### 6. Heart Disease Prediction
+A machine learning classification project that predicts the likelihood of heart disease using patient health attributes and Logistic Regression.
+
+**Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib
+
+### 7. Shark Tank Analysis
+An exploratory data analysis project examining Shark Tank investment data to uncover patterns in startup funding, investor participation, and deal-making.
+
+**Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Gaurikabhatt27&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Achievements & Certifications
+
+- Dean's Top 10% Students at University - November 2025
+- Smart India Hackathon 2025 - University Level Selection
+- HackerRank Python - 5 Star Certification
+- AlgoUniversity Graphs Camp - Selected among 4,000 shortlisted candidates from 40,000 applicants
+- GirlScript Summer of Code 2026 - Open Source Contributor
+- Republic of Cyber Sentinels - 24-Hour CTF Participant
+
+## GitHub Analytics
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Gaurikabhatt27&show_icons=true&theme=transparent&hide_border=true&title_color=C77B9B&icon_color=C77B9B&text_color=F8F0F3"
+    alt="Gaurika's GitHub statistics"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=Gaurikabhatt27&theme=transparent&hide_border=true&ring=C77B9B&fire=C77B9B&currStreakLabel=E5B5C7"
+    alt="GitHub contribution streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gaurikabhatt27&layout=compact&theme=transparent&hide_border=true&title_color=C77B9B&text_color=F8F0F3"
+    alt="Most used programming languages"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Gaurikabhatt27&bg_color=10070C&color=E5B5C7&line=C77B9B&point=F8F0F3&hide_border=true"
+    alt="GitHub contribution activity graph"
+  />
+</p>
+
+## Let's Connect
+
+<p align="center">
+  <a href="https://github.com/Gaurikabhatt27">
+    <img src="https://img.shields.io/badge/GitHub-10070C?style=for-the-badge&logo=github&logoColor=F8F0F3"/>
+  </a>
+  <a href="https://gaurika-tech-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-451126?style=for-the-badge&logo=vercel&logoColor=F8F0F3"/>
+  </a>
+  <a href="https://www.linkedin.com/in/gaurika-bhatt-869600283/">
+    <img src="https://img.shields.io/badge/LinkedIn-701A3D?style=for-the-badge&logo=linkedin&logoColor=F8F0F3"/>
+  </a>
+</p>
+
+<p align="center">
+  Open to learning, collaboration, and opportunities in Data Science, Machine Learning, and AI.
+</p>
+
+---
+
+<p align="center">
+  <i>Building, learning, and turning ideas into impact.</i>
+</p>
+
+
