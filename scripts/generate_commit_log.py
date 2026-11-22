@@ -274,7 +274,7 @@ def fmt_date(date, include_year=False):
     return f"{date.strftime('%b')} {date.day}"
 
 
-def generate_svg(counts, metrics, start_date, end_date, level):
+def generate_svg(counts, metrics, start_date, end_date, level, snake_markup=""):
     month_names = ("Jan", "Feb", "Mar", "Apr", "May", "Jun",
                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
     sunday = start_date - timedelta(days=(start_date.weekday() + 1) % 7)
@@ -326,10 +326,18 @@ def generate_svg(counts, metrics, start_date, end_date, level):
                 f'{month_names[month_marker.month - 1]}</text>'
             )
 
+    if month_labels:
+        month_labels[-1] = re.sub(
+            r'x="[^"]+"',
+            'x="804"',
+            month_labels[-1],
+            count=1,
+        )
+
     axis = [
-        '<text x="42" y="186" text-anchor="end" fill="#A8959E" font-family="Arial, Helvetica, sans-serif" font-size="8.5">Mon</text>',
-        '<text x="42" y="214" text-anchor="end" fill="#A8959E" font-family="Arial, Helvetica, sans-serif" font-size="8.5">Wed</text>',
-        '<text x="42" y="242" text-anchor="end" fill="#A8959E" font-family="Arial, Helvetica, sans-serif" font-size="8.5">Fri</text>',
+        '<text x="54" y="191" text-anchor="end" fill="#A8959E" font-family="Arial, Helvetica, sans-serif" font-size="8.5">Mon</text>',
+        '<text x="54" y="219" text-anchor="end" fill="#A8959E" font-family="Arial, Helvetica, sans-serif" font-size="8.5">Wed</text>',
+        '<text x="54" y="247" text-anchor="end" fill="#A8959E" font-family="Arial, Helvetica, sans-serif" font-size="8.5">Fri</text>',
     ]
 
     longest_start = fmt_date(metrics["longest_start"], True)
@@ -387,7 +395,8 @@ def generate_svg(counts, metrics, start_date, end_date, level):
 
     <text x="500" y="34" fill="#A8959E" font-family="Consolas, monospace" font-size="8" letter-spacing="1">CONTRIBUTIONS</text>
     <text x="500" y="62" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700">{metrics["total"]:,}</text>
-    <text x="500" y="78" fill="#B8A3AD" font-size="8">{escape(fmt_date(start_date, True))} – {escape(fmt_date(end_date, True))}</text>
+    <text x="500" y="78" fill="#B8A3AD" font-size="7.2">{escape(fmt_date(start_date, True))} –</text>
+    <text x="500" y="88" fill="#B8A3AD" font-size="7.2">{escape(fmt_date(end_date, True))}</text>
 
     <text x="604" y="34" fill="#A8959E" font-family="Consolas, monospace" font-size="8" letter-spacing="1">ACTIVE DAYS</text>
     <text x="604" y="62" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700">{metrics["active"]}</text>
@@ -406,7 +415,7 @@ def generate_svg(counts, metrics, start_date, end_date, level):
   <g>
     {''.join(month_labels)}
     {''.join(axis)}
-    {''.join(heatmap)}
+    {snake_markup if snake_markup else ''.join(heatmap)}
   </g>
 
   <line x1="24" y1="342" x2="876" y2="342" stroke="#71304C" stroke-width="1"/>
@@ -449,7 +458,24 @@ def main():
 
         metrics = calculate_metrics(counts, start_date, end_date)
         level = intensity_levels(counts)
-        svg = generate_svg(counts, metrics, start_date, end_date, level)
+        snake_markup = ""
+        if OUTPUT.exists():
+            existing_svg = OUTPUT.read_text(encoding="utf-8")
+            snake_match = re.search(
+                r'  <g aria-label="Animated GitHub contribution snake">.*?  </g>',
+                existing_svg,
+                re.S,
+            )
+            if snake_match:
+                snake_markup = snake_match.group(0)
+        svg = generate_svg(
+            counts,
+            metrics,
+            start_date,
+            end_date,
+            level,
+            snake_markup,
+        )
         OUTPUT.parent.mkdir(parents=True, exist_ok=True)
         temporary = OUTPUT.with_suffix(".svg.tmp")
         temporary.write_text(svg, encoding="utf-8")
