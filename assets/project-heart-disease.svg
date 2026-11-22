@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Heart Disease Prediction">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#240C18"/>
+      <stop offset="0.55" stop-color="#5C1436"/>
+      <stop offset="1" stop-color="#A82463"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.84" cy="0.18" r="0.64">
+      <stop offset="0" stop-color="#A82463" stop-opacity=".32"/>
+      <stop offset="0.55" stop-color="#5C1436" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#180B12" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <rect width="900" height="300" rx="16" fill="#180B12" stroke="#5A2740" stroke-width="1"/>
+  <rect x="1" y="1" width="898" height="298" rx="15" fill="url(#glow)"/>
+  <rect x="16" y="0" width="868" height="1" fill="#E8A0B8" opacity=".38"/>
+  <rect x="16" y="0" width="310" height="1" fill="#E8A0B8" opacity=".55"/>
+
+  <text x="44" y="38" fill="#D96389" font-family="Consolas, monospace" font-size="9.5" letter-spacing="1.2">06 · MACHINE LEARNING · CLASSIFICATION · HEALTHCARE DATA</text>
+  <text x="44" y="168" fill="#F5EDF0" font-family="Georgia, Times New Roman, serif" font-size="29" font-weight="700">Heart Disease Prediction</text>
+  <text x="44" y="194" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="12.5">
+    <tspan>A machine learning classification project exploring heart disease prediction using clinical dataset features.</tspan>
+  </text>
+  <text x="44" y="226" fill="#D96389" font-family="Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing=".8">BUILT ›</text>
+  <text x="104" y="226" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="10.5">Dataset preparation, exploratory analysis, feature processing and Logistic Regression modelling.</text>
+  <text x="44" y="238" fill="#A8909B" font-family="Arial, sans-serif" font-size="9.5">Stratified split · Random state 2</text>
+  <rect x="44" y="254" width="70" height="22" rx="11" fill="#471A30" stroke="#9B4A68" stroke-opacity=".72"/><text x="79.0" y="269" text-anchor="middle" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="8.5">Python</text><rect x="122" y="254" width="62" height="22" rx="11" fill="#471A30" stroke="#9B4A68" stroke-opacity=".72"/><text x="153.0" y="269" text-anchor="middle" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="8.5">Pandas</text><rect x="192" y="254" width="82" height="22" rx="11" fill="#471A30" stroke="#9B4A68" stroke-opacity=".72"/><text x="233.0" y="269" text-anchor="middle" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="8.5">NumPy</text><rect x="282" y="254" width="92" height="22" rx="11" fill="#471A30" stroke="#9B4A68" stroke-opacity=".72"/><text x="328.0" y="269" text-anchor="middle" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="8.5">Scikit-learn</text><rect x="382" y="254" width="74" height="22" rx="11" fill="#471A30" stroke="#9B4A68" stroke-opacity=".72"/><text x="419.0" y="269" text-anchor="middle" fill="#DDD0D6" font-family="Arial, sans-serif" font-size="8.5">Matplotlib</text>
+  
+        <path d="M620 150H650L662 128L678 178L692 150H840" fill="none" stroke="#E8A0B8" stroke-width="3"/>
+        <path d="M730 206 C702 182 674 150 674 124 C674 94 716 88 730 118 C744 88 786 94 786 124 C786 150 758 182 730 206Z"
+              fill="#471A30" stroke="#D96389" stroke-opacity=".70"/>
+        <rect x="638" y="220" width="184" height="28" rx="14" fill="#240C18" stroke="#5A2740"/>
+        <text x="730" y="239" text-anchor="middle" fill="#DDD0D6" font-size="10" font-family="Arial">classification output</text>
+</svg>

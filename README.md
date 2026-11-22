@@ -2,133 +2,74 @@
   <img src="assets/gaurika-hero.svg" alt="Gaurika Bhatt - Data Science and AI/ML" width="100%">
 </p>
 
-## About Me
-
-- Final-year B.Tech Computer Science and Engineering student at Lovely Professional University.
-- CGPA: 8.86
-- Interested in Data Science, Machine Learning, AI, and Data Analytics.
-- Experienced in building predictive models, interactive dashboards, and data-driven applications.
-- Currently strengthening my problem-solving, SQL, and machine learning skills.
-- Exploring scalable data processing and intelligent application development.
-
-I enjoy transforming complex data into meaningful insights and building practical solutions to real-world problems.
-
-## Technical Skills
-
-**Programming:** Python, C++, SQL
-
-**Data Science & Analytics:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Excel, Power BI
-
-**Machine Learning:** Regression, Classification, Feature Engineering, Model Evaluation
-
-**Big Data:** PySpark, Apache Spark, Hadoop, HDFS, Hive, HBase, Cassandra
-
-**Databases:** MySQL, MongoDB
-
-**Development & Tools:** Git, GitHub, VS Code, Jupyter Notebook, Streamlit, React, Node.js
-
-## Featured Projects
-
-A selection of projects across Data Science, Machine Learning, Big Data, Business Intelligence, and AI-powered applications.
-
-### 1. LYRA - AI-Powered Voice Assistant
-A Python-based desktop voice assistant that enables voice-controlled interactions, web automation, information retrieval, and productivity tasks.
-
-**Technologies:** Python, Groq, Cohere, Hugging Face, Selenium, PyQt5, Edge TTS
-
-### 2. EchoChamber - AI-Moderated Real-Time Debate Platform
-A real-time debate platform featuring AI-powered moderation, live communication, and interactive debate experiences.
-
-**Technologies:** React, Node.js, Express.js, MongoDB, Socket.io, Gemini API, Redis
-
-### 3. Public Transport Ridership Prediction
-A large-scale predictive analytics project using NYC public transport data, weather information, and calendar features to forecast hourly bus ridership.
-
-**Technologies:** Python, PySpark, Spark MLlib, Pandas, Power BI
-
-### 4. India Socio-Demographic Insights
-An interactive business intelligence project exploring Census 2011 data to identify demographic patterns and socio-economic insights across India.
-
-**Technologies:** Power BI, Data Analytics, Data Visualization, Excel
-
-### 5. Smart Course Recommendation System
-A personalized course recommendation and learning analytics application that uses student skills, interests, and course ratings to generate recommendations.
-
-**Technologies:** Python, MongoDB, PyMongo, Streamlit, Pandas, Plotly
-
-### 6. Heart Disease Prediction
-A machine learning classification project that predicts the likelihood of heart disease using patient health attributes and Logistic Regression.
-
-**Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib
-
-### 7. Shark Tank Analysis
-An exploratory data analysis project examining Shark Tank investment data to uncover patterns in startup funding, investor participation, and deal-making.
-
-**Technologies:** Python, Pandas, NumPy, Matplotlib, Seaborn
-
----
-
-## Achievements & Certifications
-
-- Dean's Top 10% Students at University - November 2025
-- Smart India Hackathon 2025 - University Level Selection
-- HackerRank Python - 5 Star Certification
-- AlgoUniversity Graphs Camp - Selected among 4,000 shortlisted candidates from 40,000 applicants
-- GirlScript Summer of Code 2026 - Open Source Contributor
-- Republic of Cyber Sentinels - 24-Hour CTF Participant
-
-## GitHub Analytics
-
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Gaurikabhatt27&show_icons=true&theme=transparent&hide_border=true&title_color=C77B9B&icon_color=C77B9B&text_color=F8F0F3"
-    alt="Gaurika's GitHub statistics"
-  />
+  <img src="assets/about-section.svg" alt="About Gaurika Bhatt" width="100%">
 </p>
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=Gaurikabhatt27&theme=transparent&hide_border=true&ring=C77B9B&fire=C77B9B&currStreakLabel=E5B5C7"
-    alt="GitHub contribution streak"
-  />
+  <img src="assets/recognition-section.svg" alt="Recognition and achievements" width="100%">
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gaurikabhatt27&layout=compact&theme=transparent&hide_border=true&title_color=C77B9B&text_color=F8F0F3"
-    alt="Most used programming languages"
-  />
+  <img src="assets/projects-header.svg" alt="03 Selected Work — Seven Projects" width="100%">
+</p>
+
+<a href="https://github.com/Gaurikabhatt27/Lyra-PC-Assistant-"><img src="assets/project-lyra.svg" alt="LYRA project" width="100%"></a>
+
+<a href="https://github.com/Gaurikabhatt27/EchoChamber-backend"><img src="assets/project-echochamber.svg" alt="EchoChamber project" width="100%"></a>
+
+<a href="https://github.com/Gaurikabhatt27/predicting_public_transport_ridership"><img src="assets/project-ridership.svg" alt="Public Transport Ridership Prediction project" width="100%"></a>
+
+<a href="https://github.com/Gaurikabhatt27/india-socio-demographic-insights"><img src="assets/project-india-insights.svg" alt="India Socio-Demographic Insights project" width="100%"></a>
+
+<a href="https://github.com/Gaurikabhatt27/Smart_Course_Recommendation_System"><img src="assets/project-course-recommendation.svg" alt="Smart Course Recommendation System project" width="100%"></a>
+
+<a href="https://github.com/Gaurikabhatt27/Heart_Disease_Prediction"><img src="assets/project-heart-disease.svg" alt="Heart Disease Prediction project" width="100%"></a>
+
+<a href="https://github.com/Gaurikabhatt27/Shark-Attack-Data-Analysis-Python-EDA-Project"><img src="assets/project-shark-tank.svg" alt="Shark Tank Analysis project" width="100%"></a>
+
+<p align="center">
+  <img src="assets/toolkit-header.svg" alt="04 Toolkit — The tools I reach for" width="100%">
 </p>
 
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Gaurikabhatt27&bg_color=10070C&color=E5B5C7&line=C77B9B&point=F8F0F3&hide_border=true"
-    alt="GitHub contribution activity graph"
-  />
-</p>
-
-## Let's Connect
-
-<p align="center">
-  <a href="https://github.com/Gaurikabhatt27">
-    <img src="https://img.shields.io/badge/GitHub-10070C?style=for-the-badge&logo=github&logoColor=F8F0F3"/>
-  </a>
-  <a href="https://gaurika-tech-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-451126?style=for-the-badge&logo=vercel&logoColor=F8F0F3"/>
-  </a>
-  <a href="https://www.linkedin.com/in/gaurika-bhatt-869600283/">
-    <img src="https://img.shields.io/badge/LinkedIn-701A3D?style=for-the-badge&logo=linkedin&logoColor=F8F0F3"/>
-  </a>
+  <img src="assets/toolkit-grid.svg" alt="Languages, AI and ML, data analytics, web development, databases, and tools" width="100%">
 </p>
 
 <p align="center">
-  Open to learning, collaboration, and opportunities in Data Science, Machine Learning, and AI.
+  <img src="assets/commitlog-header.svg" alt="05 Commit Log — A year of building" width="100%">
 </p>
-
----
 
 <p align="center">
-  <i>Building, learning, and turning ideas into impact.</i>
+  <img src="assets/commit-log.svg" alt="GitHub contribution activity commit log" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/github-at-a-glance.svg" alt="GitHub at a glance" width="440">
+</p>
 
+<p align="center">
+  <img src="assets/certifications-header.svg" alt="06 Certifications — Learning, building, and validating" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/certifications-grid.svg" alt="Verified learning, data analytics, programming, open-source and technical activities" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/connect-header.svg" alt="07 Connect — Let's build something meaningful" width="100%">
+</p>
+
+<p align="center">
+  <a href="mailto:gaurikabhatt27@gmail.com"><img src="https://img.shields.io/static/v1?label=EMAIL&amp;message=CONTACT&amp;color=C21E56&amp;logo=gmail&amp;logoColor=white&amp;labelColor=2A1A22&amp;style=for-the-badge" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/gaurika-bhatt-869600283/"><img src="https://img.shields.io/static/v1?label=LINKEDIN&amp;message=PROFILE&amp;color=C21E56&amp;logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUyIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjQgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D&amp;logoColor=white&amp;labelColor=2A1A22&amp;style=for-the-badge" alt="LinkedIn"/></a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/gaurika_bhatt2702/"><img src="https://img.shields.io/static/v1?label=LEETCODE&amp;message=PROFILE&amp;color=C21E56&amp;logo=leetcode&amp;logoColor=white&amp;labelColor=2A1A22&amp;style=for-the-badge" alt="LeetCode"/></a>
+  <a href="https://gaurika-tech-portfolio.vercel.app/"><img src="https://img.shields.io/static/v1?label=PORTFOLIO&amp;message=VIEW&amp;color=C21E56&amp;logo=vercel&amp;logoColor=white&amp;labelColor=2A1A22&amp;style=for-the-badge" alt="Portfolio"/></a>
+</p>
+
+<p align="center">
+  <img src="assets/footer-banner.svg" alt="Gaurika Bhatt — Building intelligent systems with purpose" width="100%">
+</p>

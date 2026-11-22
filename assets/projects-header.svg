@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="90" viewBox="0 0 900 90" role="img" aria-labelledby="projects-title">
+  <title id="projects-title">Selected work</title>
+  <defs>
+    <linearGradient id="ph-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8A3B58"/>
+      <stop offset=".72" stop-color="#4A2031"/>
+      <stop offset="1" stop-color="#2A121D"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="16" fill="#D96389" font-family="Consolas, monospace" font-size="11" font-weight="600" letter-spacing="2">03 SELECTED WORK</text>
+  <text x="900" y="16" text-anchor="end" fill="#8C7A85" font-family="Consolas, monospace" font-size="10" letter-spacing="1.5">SEVEN PROJECTS · REAL-WORLD PROBLEMS</text>
+  <text x="0" y="58" fill="#F5EDF0" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="700">Products, not assignments.</text>
+  <rect x="0" y="74" width="900" height="1" fill="url(#ph-rule)"/>
+</svg>

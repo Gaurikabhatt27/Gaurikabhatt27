@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="certifications-grid-title certifications-grid-desc">
+  <title id="certifications-grid-title">Certifications and learning activities</title>
+  <desc id="certifications-grid-desc">Verified AI and ML learning, data analytics simulations, programming achievement, open-source and technical learning activities.</desc>
+  <defs>
+    <linearGradient id="cert-panel" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#180B12"/>
+      <stop offset="0.54" stop-color="#321020"/>
+      <stop offset="1" stop-color="#54172F"/>
+    </linearGradient>
+    <radialGradient id="cert-glow" cx="0.52" cy="0.48" r="0.68">
+      <stop offset="0" stop-color="#6B1A3E" stop-opacity="0.30"/>
+      <stop offset="0.58" stop-color="#351925" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#180B12" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="390" rx="16" fill="url(#cert-panel)" stroke="#5A2740" stroke-width="1"/>
+  <rect x="1" y="1" width="898" height="388" rx="15" fill="url(#cert-glow)"/>
+
+  <g>
+    <rect x="22" y="22" width="418" height="162" rx="11" fill="#240F1A" fill-opacity="0.92" stroke="#5A2740" stroke-width="1"/>
+    <rect x="460" y="22" width="418" height="162" rx="11" fill="#240F1A" fill-opacity="0.92" stroke="#5A2740" stroke-width="1"/>
+    <rect x="22" y="206" width="418" height="162" rx="11" fill="#240F1A" fill-opacity="0.92" stroke="#5A2740" stroke-width="1"/>
+    <rect x="460" y="206" width="418" height="162" rx="11" fill="#240F1A" fill-opacity="0.92" stroke="#5A2740" stroke-width="1"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="44" y="50" fill="#D96389" font-family="Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.4">AI &amp; MACHINE LEARNING</text>
+    <g fill="#D96389"><circle cx="368" cy="47" r="2.5"/><circle cx="378" cy="47" r="2.5"/><circle cx="388" cy="47" r="2.5"/></g>
+    <line x1="44" y1="68" x2="418" y2="68" stroke="#71304C" stroke-width="1"/>
+    <text x="44" y="98" fill="#F0E4EA" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700">AWS Machine Learning and AI Fundamentals</text>
+    <text x="44" y="121" fill="#CDBAC2" font-family="Georgia, 'Times New Roman', serif" font-size="14">Claude 101 · Anthropic Academy</text>
+    <text x="44" y="144" fill="#CDBAC2" font-family="Georgia, 'Times New Roman', serif" font-size="14">Google AI Fundamentals</text>
+    <text x="44" y="166" fill="#A8959E" font-family="Consolas, monospace" font-size="8" letter-spacing="0.8">3 LEARNING CREDENTIALS</text>
+
+    <text x="482" y="50" fill="#D96389" font-family="Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.4">DATA ANALYTICS</text>
+    <g fill="#D96389"><circle cx="806" cy="47" r="2.5"/><circle cx="816" cy="47" r="2.5"/></g>
+    <line x1="482" y1="68" x2="856" y2="68" stroke="#71304C" stroke-width="1"/>
+    <text x="482" y="98" fill="#F0E4EA" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700">Deloitte Data Analytics Job Simulation</text>
+    <text x="482" y="121" fill="#CDBAC2" font-family="Georgia, 'Times New Roman', serif" font-size="14">Tata GenAI-Powered Data Analytics</text>
+    <text x="482" y="144" fill="#CDBAC2" font-family="Georgia, 'Times New Roman', serif" font-size="14">Forage Job Simulation</text>
+    <text x="482" y="166" fill="#A8959E" font-family="Consolas, monospace" font-size="8" letter-spacing="0.8">2 PRACTICAL SIMULATIONS</text>
+
+    <text x="44" y="234" fill="#D96389" font-family="Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.4">PROGRAMMING</text>
+    <circle cx="388" cy="231" r="2.5" fill="#D96389"/>
+    <line x1="44" y1="252" x2="418" y2="252" stroke="#71304C" stroke-width="1"/>
+    <text x="44" y="282" fill="#F0E4EA" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700">HackerRank Python</text>
+    <text x="44" y="305" fill="#CDBAC2" font-family="Georgia, 'Times New Roman', serif" font-size="14">5-Star Achievement</text>
+    <text x="44" y="327" fill="#A8959E" font-family="Consolas, monospace" font-size="8" letter-spacing="0.8">1 PROGRAMMING ACHIEVEMENT</text>
+
+    <text x="482" y="234" fill="#D96389" font-family="Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1.4">OPEN SOURCE &amp; TECHNICAL LEARNING</text>
+    <g fill="#D96389"><circle cx="806" cy="231" r="2.5"/><circle cx="816" cy="231" r="2.5"/></g>
+    <line x1="482" y1="252" x2="856" y2="252" stroke="#71304C" stroke-width="1"/>
+    <text x="482" y="282" fill="#F0E4EA" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="700">AlgoUniversity Graphs Camp</text>
+    <text x="482" y="305" fill="#CDBAC2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5">Republic of Cyber Sentinels · CTF Participation</text>
+    <text x="482" y="327" fill="#A8959E" font-family="Consolas, monospace" font-size="8" letter-spacing="0.8">2 PARTICIPATIONS · TECHNICAL LEARNING</text>
+  </g>
+</svg>

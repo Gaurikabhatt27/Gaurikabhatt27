@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="1000" height="90" role="img" aria-label="Building, learning, and turning ideas into impact">
+  <defs>
+    <linearGradient id="gfLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset="0.5" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#701A3D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="90" fill="#10070C"/>
+  <line x1="120" y1="30" x2="880" y2="30" stroke="url(#gfLine)" stroke-width="1.5">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <text x="500" y="62" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#E5B5C7" letter-spacing="2">BUILDING, LEARNING, AND TURNING IDEAS INTO IMPACT</text>
+</svg>

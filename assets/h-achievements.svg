@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" width="1000" height="180" role="img" aria-label="Achievements">
+  <defs>
+    <linearGradient id="hd-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="0.6" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+    <radialGradient id="hd-glow" cx="0.85" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hd-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#E5B5C7" stroke-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="hd-ln" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset="0.5" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#E5B5C7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="180" rx="16" fill="url(#hd-bg)"/>
+  <rect width="1000" height="180" rx="16" fill="url(#hd-glow)"/>
+  <rect width="1000" height="180" rx="16" fill="url(#hd-grid)"/>
+  <rect x="0.5" y="0.5" width="999" height="179" rx="16" fill="none" stroke="#C77B9B" stroke-opacity="0.4"/>
+  <circle cx="900" cy="90" r="70" fill="none" stroke="#C77B9B" stroke-opacity="0.25"/>
+  <circle cx="900" cy="90" r="42" fill="none" stroke="#E5B5C7" stroke-opacity="0.2" stroke-dasharray="4 6"/>
+  <text x="44" y="48" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#C77B9B" letter-spacing="3">02 · RECOGNITION</text>
+  <text x="44" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#F8F0F3" >Achievements</text>
+  <rect x="44" y="124" width="260" height="2" fill="url(#hd-ln)"/>
+  <text x="44" y="152" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#E5B5C7" font-style="italic">Milestones from university, competitions and open source.</text>
+</svg>

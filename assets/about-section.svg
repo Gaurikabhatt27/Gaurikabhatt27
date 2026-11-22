@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="about-title about-desc">
+  <title id="about-title">About Gaurika Bhatt</title>
+  <desc id="about-desc">A terminal-style and card-based overview of Gaurika Bhatt's education and technical interests.</desc>
+  <defs>
+    <linearGradient id="about-divider" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8A3B58"/>
+      <stop offset="0.72" stop-color="#4A2031"/>
+      <stop offset="1" stop-color="#2A121D"/>
+    </linearGradient>
+    <linearGradient id="about-panel" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1A0C13"/>
+      <stop offset="0.54" stop-color="#381224"/>
+      <stop offset="1" stop-color="#591835"/>
+    </linearGradient>
+    <radialGradient id="about-glow" cx="0.88" cy="0.12" r="0.62">
+      <stop offset="0" stop-color="#8F3158" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#591835" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#1A0C13" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <text x="0" y="16" fill="#D46A92" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="11" font-weight="600" letter-spacing="2">01 ABOUT</text>
+  <text x="900" y="16" text-anchor="end" fill="#8C7A85"
+        font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="10" letter-spacing="1.5">WHO I AM</text>
+  <text x="0" y="58" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif"
+        font-size="36" font-weight="700">
+    <tspan> Hello, I'm </tspan>
+    <tspan fill="#F4A6C1" font-family="'Brush Script MT', 'Segoe Script', 'URW Chancery L', 'Apple Chancery', cursive"
+           font-size="36" font-weight="700">Gaurika</tspan>
+    <tspan>.</tspan>
+  </text>
+  <rect x="0" y="74" width="900" height="1" fill="url(#about-divider)"/>
+
+  <rect x="0" y="94" width="900" height="370" rx="14" fill="url(#about-panel)" stroke="#5E263E" stroke-width="1"/>
+  <rect x="0" y="94" width="900" height="370" rx="14" fill="url(#about-glow)"/>
+
+  <g>
+    <rect x="22" y="116" width="600" height="326" rx="10" fill="#150C11" fill-opacity="0.92" stroke="#3B1C2A" stroke-width="1"/>
+    <rect x="22" y="116" width="600" height="34" rx="10" fill="#150C11" fill-opacity="0.96"/>
+    <rect x="22" y="140" width="600" height="10" fill="#150C11" fill-opacity="0.96"/>
+    <line x1="22" y1="150" x2="622" y2="150" stroke="#331824" stroke-width="1"/>
+
+    <circle cx="38" cy="133" r="4" fill="#C84B73"/>
+    <circle cx="54" cy="133" r="4" fill="#8E3554"/>
+    <circle cx="70" cy="133" r="4" fill="#5C2238"/>
+    <text x="322" y="137" text-anchor="middle" fill="#B8A8B0"
+          font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+          font-size="12">gaurika@portfolio: ~</text>
+
+    <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13">
+      <text x="44" y="174" fill="#D46A92">$ </text>
+      <text x="63" y="174" fill="#F5EDF0" font-weight="700">whoami</text>
+      <text x="44" y="196" fill="#D46A92">→ </text>
+      <text x="63" y="196" fill="#E2D5DA">Gaurika Bhatt · Data Science · AI/ML</text>
+
+      <text x="44" y="224" fill="#D46A92">$ </text>
+      <text x="63" y="224" fill="#F5EDF0" font-weight="700">cat education.txt</text>
+      <text x="44" y="246" fill="#D46A92">→ </text>
+      <text x="63" y="246" fill="#E2D5DA">B.Tech CSE · Lovely Professional University · CGPA 8.86</text>
+
+      <text x="44" y="274" fill="#D46A92">$ </text>
+      <text x="63" y="274" fill="#F5EDF0" font-weight="700">cat languages.txt</text>
+      <text x="44" y="296" fill="#D46A92">→ </text>
+      <text x="63" y="296" fill="#E2D5DA">Python · SQL · C++</text>
+
+      <text x="44" y="324" fill="#D46A92">$ </text>
+      <text x="63" y="324" fill="#F5EDF0" font-weight="700">ls ./analytics</text>
+      <text x="44" y="346" fill="#D46A92">→ </text>
+      <text x="63" y="346" fill="#E2D5DA">Excel · Power BI · Pandas · NumPy</text>
+
+      <text x="44" y="374" fill="#D46A92">$ </text>
+      <text x="63" y="374" fill="#F5EDF0" font-weight="700">echo $INTERESTS</text>
+      <text x="44" y="396" fill="#D46A92">→ </text>
+      <text x="63" y="396" fill="#E2D5DA">Data Science · Machine Learning · Artificial Intelligence</text>
+
+      <rect x="44" y="407" width="7" height="14" fill="#F5EDF0">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.55;1" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <g>
+    <g>
+      <rect x="640" y="116" width="238" height="99" rx="8" fill="#240F1A" fill-opacity="0.88" stroke="#4D2134" stroke-width="1"/>
+      <rect x="640" y="116" width="3" height="99" rx="1.5" fill="#D95C88"/>
+      <text x="656" y="139" fill="#C87A96"
+            font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+            font-size="9.5" letter-spacing="1.2">CORE LANGUAGE</text>
+      <text x="656" y="177" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif"
+            font-size="21" font-weight="700">Python</text>
+      <text x="656" y="199" fill="#A69099"
+            font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">Data science · ML</text>
+    </g>
+
+    <g>
+      <rect x="640" y="229" width="238" height="99" rx="8" fill="#240F1A" fill-opacity="0.88" stroke="#4D2134" stroke-width="1"/>
+      <rect x="640" y="229" width="3" height="99" rx="1.5" fill="#D95C88"/>
+      <text x="656" y="252" fill="#C87A96"
+            font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+            font-size="9.5" letter-spacing="1.2">ANALYTICS</text>
+      <text x="656" y="290" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif"
+            font-size="21" font-weight="700">SQL</text>
+      <text x="656" y="312" fill="#A69099"
+            font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">Excel · Power BI</text>
+    </g>
+
+    <g>
+      <rect x="640" y="342" width="238" height="99" rx="8" fill="#240F1A" fill-opacity="0.88" stroke="#4D2134" stroke-width="1"/>
+      <rect x="640" y="342" width="3" height="99" rx="1.5" fill="#D95C88"/>
+      <text x="656" y="365" fill="#C87A96"
+            font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+            font-size="9.5" letter-spacing="1.2">INTERESTED IN</text>
+      <text x="656" y="403" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif"
+            font-size="21" font-weight="700">AI/ML</text>
+      <text x="656" y="425" fill="#A69099"
+            font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">Intelligent systems</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="85" viewBox="0 0 900 85" role="img" aria-labelledby="toolkit-title">
+  <title id="toolkit-title">Toolkit</title>
+  <defs>
+    <linearGradient id="toolkit-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A82463"/>
+      <stop offset="0.55" stop-color="#5C2E45"/>
+      <stop offset="1" stop-color="#2A121D"/>
+    </linearGradient>
+  </defs>
+
+  <text x="0" y="16" fill="#D46A92" font-family="Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="11" font-weight="600" letter-spacing="2">04 TOOLKIT</text>
+  <text x="900" y="16" text-anchor="end" fill="#8C7A85"
+        font-family="Consolas, 'Liberation Mono', Menlo, monospace"
+        font-size="10" letter-spacing="1.5">LANGUAGES · AI/ML · DATA · WEB · TOOLS</text>
+  <text x="0" y="58" fill="#F5EDF0" font-family="Georgia, 'Times New Roman', serif"
+        font-size="34" font-weight="700">The tools I reach for.</text>
+  <rect x="0" y="74" width="900" height="1" fill="url(#toolkit-rule)"/>
+</svg>
