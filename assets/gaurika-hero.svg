@@ -38,6 +38,23 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <filter id="gb-trail-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3.2" result="trailBlur"/>
+      <feMerge>
+        <feMergeNode in="trailBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="gb-trail-light" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset="0.58" stop-color="#F3B3CB" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#FFF7FA"/>
+    </linearGradient>
+    <radialGradient id="gb-ambient-orbit" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A82463" stop-opacity="0.14"/>
+      <stop offset="0.62" stop-color="#701A3D" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#451126" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
   <rect width="1200" height="360" fill="url(#gb-bg)"/>
@@ -49,13 +66,96 @@
         fill="none" stroke="#701A3D" stroke-opacity="0.16" stroke-width="1"/>
 
   <g transform="translate(1014 178)">
+    <circle r="188" fill="url(#gb-ambient-orbit)" opacity="0.72">
+      <animate attributeName="opacity" values="0.48;0.82;0.48" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="184;192;184" dur="5s" repeatCount="indefinite"/>
+    </circle>
     <circle r="198" fill="url(#gb-photo-glow)"/>
     <circle r="174" fill="none" stroke="#C77B9B" stroke-opacity="0.20" stroke-width="1"/>
     <circle r="163" fill="none" stroke="#E5B5C7" stroke-opacity="0.11" stroke-width="1" stroke-dasharray="2 8"/>
-    <path d="M-174 18C-174 94 -80 162 6 163" fill="none" stroke="#C77B9B" stroke-opacity="0.34" stroke-width="1"/>
-    <path d="M38 -163C118 -154 170 -90 174 -20" fill="none" stroke="#E5B5C7" stroke-opacity="0.24" stroke-width="1"/>
-    <circle cx="-174" cy="18" r="3" fill="#E5B5C7" opacity="0.80"/>
-    <circle cx="174" cy="-20" r="3" fill="#C77B9B" opacity="0.80"/>
+    <path id="gb-orbit-a" d="M-174 18C-174 94 -80 162 6 163" fill="none" stroke="#C77B9B" stroke-opacity="0.34" stroke-width="1"/>
+    <path id="gb-orbit-b" d="M38 -163C118 -154 170 -90 174 -20" fill="none" stroke="#E5B5C7" stroke-opacity="0.24" stroke-width="1"/>
+    <path id="gb-orbit-c" d="M-164 -92C-108 -150 -20 -178 74 -158C148 -142 184 -78 188 -18"
+          fill="none" stroke="#F0C5D4" stroke-opacity="0.14" stroke-width="0.75"/>
+
+    <path d="M-174 18C-174 94 -80 162 6 163" fill="none"
+          stroke="url(#gb-trail-light)" stroke-width="1.55" stroke-opacity="0.78"
+          stroke-dasharray="34 260" stroke-linecap="round" filter="url(#gb-trail-glow)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-294" dur="3.2s" calcMode="spline"
+               keyTimes="0;1" keySplines="0.42 0 0.58 1" repeatCount="indefinite"/>
+    </path>
+    <path d="M38 -163C118 -154 170 -90 174 -20" fill="none"
+          stroke="url(#gb-trail-light)" stroke-width="1.35" stroke-opacity="0.68"
+          stroke-dasharray="28 270" stroke-linecap="round" filter="url(#gb-trail-glow)">
+      <animate attributeName="stroke-dashoffset" from="-294" to="0" dur="4.1s" calcMode="spline"
+               keyTimes="0;1" keySplines="0.42 0 0.58 1" begin="0.7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-164 -92C-108 -150 -20 -178 74 -158C148 -142 184 -78 188 -18" fill="none"
+          stroke="#FFEAF2" stroke-width="0.9" stroke-opacity="0.58"
+          stroke-dasharray="22 310" stroke-linecap="round" filter="url(#gb-trail-glow)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-332" dur="2.8s" calcMode="spline"
+               keyTimes="0;1" keySplines="0.42 0 0.58 1" begin="1.2s" repeatCount="indefinite"/>
+    </path>
+
+    <circle r="2.4" fill="#FFF7FA" filter="url(#gb-trail-glow)">
+      <animateMotion dur="3.2s" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" repeatCount="indefinite">
+        <mpath href="#gb-orbit-a"/>
+      </animateMotion>
+    </circle>
+    <circle r="1.8" fill="#F3B3CB" filter="url(#gb-trail-glow)">
+      <animateMotion dur="4.1s" begin="0.7s" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" repeatCount="indefinite">
+        <mpath href="#gb-orbit-b"/>
+      </animateMotion>
+    </circle>
+    <circle r="1.35" fill="#FFEAF2" filter="url(#gb-trail-glow)">
+      <animateMotion dur="2.8s" begin="1.2s" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" repeatCount="indefinite">
+        <mpath href="#gb-orbit-c"/>
+      </animateMotion>
+    </circle>
+
+    <circle cx="-174" cy="18" r="3" fill="#E5B5C7" opacity="0.80">
+      <animate attributeName="r" values="2.2;4.2;2.2" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.30;0.95;0.30" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="174" cy="-20" r="3" fill="#C77B9B" opacity="0.80">
+      <animate attributeName="r" values="2.2;4.0;2.2" dur="3.1s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.28;0.92;0.28" dur="3.1s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M-98 -146l2.8 5.4 5.4 2.8-5.4 2.8-2.8 5.4-2.8-5.4-5.4-2.8 5.4-2.8z"
+          fill="#FFF7FA" opacity="0.38" filter="url(#gb-trail-glow)">
+      <animate attributeName="opacity" values="0.08;0.82;0.08" dur="2.7s" begin="0.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="0.65;1.15;0.65" dur="2.7s"
+                        begin="0.5s" additive="sum" repeatCount="indefinite"/>
+    </path>
+    <path d="M118 132l2 3.8 3.8 2-3.8 2-2 3.8-2-3.8-3.8-2 3.8-2z"
+          fill="#F3B3CB" opacity="0.28" filter="url(#gb-trail-glow)">
+      <animate attributeName="opacity" values="0.08;0.70;0.08" dur="3.4s" begin="1.4s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M-190 82C-144 146 -64 176 34 160C112 148 176 94 184 18"
+          fill="none" stroke="#A82463" stroke-width="0.9" stroke-opacity="0.16"
+          stroke-dasharray="3 12" stroke-linecap="round"/>
+    <circle r="3.2" fill="#FFF7FA" filter="url(#gb-trail-glow)">
+      <animateMotion dur="4.6s" begin="1.6s" calcMode="spline" keyTimes="0;1"
+                     keySplines="0.42 0 0.58 1" repeatCount="indefinite">
+        <mpath href="#gb-comet-path"/>
+      </animateMotion>
+    </circle>
+    <circle r="2.2" fill="#F3B3CB" opacity="0.58" filter="url(#gb-trail-glow)">
+      <animateMotion dur="4.6s" begin="1.58s" calcMode="spline" keyTimes="0;1"
+                     keySplines="0.42 0 0.58 1" repeatCount="indefinite">
+        <mpath href="#gb-comet-tail"/>
+      </animateMotion>
+    </circle>
+    <circle r="1.15" fill="#C77B9B" opacity="0.28" filter="url(#gb-trail-glow)">
+      <animateMotion dur="4.6s" begin="1.56s" calcMode="spline" keyTimes="0;1"
+                     keySplines="0.42 0 0.58 1" repeatCount="indefinite">
+        <mpath href="#gb-comet-tail"/>
+      </animateMotion>
+    </circle>
+    <path id="gb-comet-path" d="M-190 82C-144 146 -64 176 34 160C112 148 176 94 184 18" fill="none" stroke="none"/>
+    <path id="gb-comet-tail" d="M-190 82C-144 146 -64 176 34 160C112 148 176 94 184 18" fill="none" stroke="none"/>
   </g>
 
   <g clip-path="url(#gb-portrait-oval)">

@@ -1,0 +1,40 @@
+name: Update GitHub contribution snake
+
+on:
+  schedule:
+    - cron: "30 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate burgundy contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Gaurikabhatt27
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#F4A6C1&color_dots=#2A1420,#591C36,#9E2B58,#E0467F,#FFF7FA
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#F4A6C1&color_dots=#2A1420,#591C36,#9E2B58,#E0467F,#FFF7FA
+
+      - name: Verify generated snake assets
+        run: |
+          test -s dist/github-snake.svg
+          test -s dist/github-snake-dark.svg
+          ls -l dist
+
+      - name: Publish snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

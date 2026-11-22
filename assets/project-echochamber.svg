@@ -37,4 +37,13 @@
         <path d="M628 94V176M720 176V234" fill="none" stroke="#D96389" stroke-opacity=".18"/>
         <rect x="647" y="110" width="74" height="5" rx="2" fill="#A8909B"/><rect x="647" y="125" width="55" height="5" rx="2" fill="#A8909B"/>
         <rect x="739" y="192" width="74" height="5" rx="2" fill="#A8909B"/><rect x="739" y="207" width="55" height="5" rx="2" fill="#A8909B"/>
+  <rect x="0.75" y="0.75" width="898.5" height="298.5" rx="15.25" fill="none"
+        stroke="#E06C88" stroke-width="1.25" stroke-opacity="0.58"
+        stroke-dasharray="70 2900" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-2970" dur="3.8s" begin="0.5s" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" repeatCount="indefinite"/>
+  </rect>
+  <rect x="0.75" y="0.75" width="898.5" height="298.5" rx="15.25" fill="none" stroke="#FFE8F1" stroke-width="3" stroke-opacity="0.10" stroke-dasharray="24 2946" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="-8" to="-2978" dur="3.8s" begin="0.5s" calcMode="spline" keyTimes="0;1" keySplines="0.42 0 0.58 1" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#FFF7FA"><circle cx="18" cy="282" r="1.1"><animate attributeName="opacity" values="0.1;0.95;0.1" dur="2s" begin="0.2s" repeatCount="indefinite"/></circle><circle cx="882" cy="18" r="0.75"><animate attributeName="opacity" values="0.08;0.72;0.08" dur="2.7s" begin="1.1s" repeatCount="indefinite"/></circle></g>
 </svg>
