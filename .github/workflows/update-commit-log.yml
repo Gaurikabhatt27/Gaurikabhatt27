@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
-  repository_dispatch:
-    types: [profile-sync]
 
 concurrency:
   group: profile-sync
@@ -45,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commit-log.svg assets/github-at-a-glance.svg assets/github-repository-inventory.json assets/commitlog-header.svg
+          git add assets/commit-log.svg assets/github-at-a-glance.svg
           if git diff --cached --quiet; then
             echo "Commit log SVG unchanged"
             exit 0
