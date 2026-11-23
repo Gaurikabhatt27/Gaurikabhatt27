@@ -23,6 +23,25 @@ COMMIT_OUTPUT = ROOT / "assets" / "commit-log.svg"
 STATS_OUTPUT = ROOT / "assets" / "github-at-a-glance.svg"
 COLORS = ("#2A1420", "#591C36", "#9E2B58", "#E0467F", "#FFE6F0")
 
+CONTRIBUTIONS_QUERY = """
+query($login: String!, $from: DateTime!, $to: DateTime!) {
+  user(login: $login) {
+    login
+    contributionsCollection(from: $from, to: $to) {
+      contributionCalendar {
+        weeks {
+          contributionDays {
+            contributionCount
+            date
+            weekday
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
 
 def api_request(url, token, method="GET", payload=None):
     headers = {
@@ -94,27 +113,8 @@ def list_public_repositories(token):
 
 
 def request_contributions(token, start_date, end_date):
-    query = """
-    query($login: String!, $from: DateTime!, $to: DateTime!) {
-      user(login: $login) {
-        login
-        contributionsCollection(from: $from, to: $to) {
-          totalContributions
-          contributionCalendar {
-            weeks {
-              contributionDays {
-                contributionCount
-                date
-                weekday
-              }
-            }
-          }
-        }
-      }
-    }
-    """
     payload = {
-        "query": query,
+        "query": CONTRIBUTIONS_QUERY,
         "variables": {
             "login": USERNAME,
             "from": f"{start_date.isoformat()}T00:00:00Z",
