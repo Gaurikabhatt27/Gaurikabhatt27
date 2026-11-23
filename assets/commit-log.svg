@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="commit-log-title commit-log-desc">
   <title id="commit-log-title">GitHub commit log</title>
-  <desc id="commit-log-desc">Actual GitHub contribution activity and commits reachable from owned-repository default branches for Gaurikabhatt27.</desc>
+  <desc id="commit-log-desc">Real GitHub contribution activity for Gaurikabhatt27.</desc>
   <defs>
     <linearGradient id="commitlog-panel" x1="0" y1="1" x2="1" y2="0">
       <stop offset="0" stop-color="#1A0C13"/><stop offset="0.54" stop-color="#381224"/><stop offset="1" stop-color="#591835"/>
@@ -36,5 +36,4 @@
   <line x1="24" y1="342" x2="876" y2="342" stroke="#71304C" stroke-width="1"/>
   <line x1="146" y1="326" x2="146" y2="342" stroke="#D96389" stroke-width="2"/>
   <text x="24" y="366" fill="#D96389" font-family="Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1">LONGEST STREAK · 28 DAYS · Jan 01, 2026 – Jan 28, 2026</text>
-  <text x="876" y="366" text-anchor="end" fill="#A8959E" font-family="Consolas, monospace" font-size="7.5">18 OWNED REPOS · 308 COMMITS REACHABLE FROM DEFAULT BRANCHES · SYNCED 2026-11-23T08:56Z</text>
 </svg>
