@@ -171,7 +171,6 @@ def request_contributions(token, start_date, end_date):
       user(login: $login) {
         login
         contributionsCollection(from: $from, to: $to) {
-          totalContributions
           contributionCalendar {
             weeks {
               contributionDays { contributionCount date weekday }
