@@ -2,8 +2,14 @@ name: Update commit log
 
 on:
   schedule:
-    - cron: "30 18 * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
+  repository_dispatch:
+    types: [profile-sync]
+
+concurrency:
+  group: profile-sync
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -14,27 +20,32 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Generate integrated contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Gaurikabhatt27
+          github_token: ${{ github.token }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#F4A6C1&color_dots=#2A1420,#591C36,#9E2B58,#E0467F,#FFF7FA
+
       - name: Generate commit log SVG
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/generate_commit_log.py
-
-      - name: Generate GitHub statistics SVG
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_github_stats.py
 
       - name: Commit generated SVG only when changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/commit-log.svg assets/github-at-a-glance.svg
+          git add assets/commit-log.svg assets/github-at-a-glance.svg assets/github-repository-inventory.json assets/commitlog-header.svg
           if git diff --cached --quiet; then
             echo "Commit log SVG unchanged"
             exit 0
